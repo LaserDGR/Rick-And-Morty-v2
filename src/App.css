@@ -1,0 +1,117 @@
+.App {
+ background:  #05292e;
+ font-family: 'Zen Dots', cursive;
+}
+
+.card-rm{
+  width: 100%;
+  height: auto;
+  margin-top: 2.8rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.card-rm img {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/header.jpg);
+  height: 550px;
+  position: relative;
+}
+
+.header img {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-character {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+}
+
+.search-character input {
+  background: transparent;
+  width: 550px;
+  height: 40px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.search-character input:hover {
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+  background: white;
+}
+
+
+.search-character button {
+  background: transparent;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  margin-left: 10px;
+  border: 2px solid gray;
+}
+
+.search-character button:hover {
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+  background: black;
+  color: white;
+}
+
+.card {
+  background: transparent !important;
+  color: white;
+  margin-top: 70px;
+  border: 5px solid lawngreen !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 10px lawngreen, 0 0 40px lawngreen, 0 0 80px lawngreen;
+}
+
+.card:hover {
+  color: black;
+  background: lawngreen !important;
+  box-shadow: 0 0 10px lawngreen, 0 0 40px lawngreen, 0 0 80px lawngreen;
+}
+
+.card-header {
+  border-bottom: 2px solid white !important;
+}
+
+.card-body {
+  border-bottom: 2px solid white !important;
+}
+
+/* .list-group-item {
+  border-bottom: 2px solid white !important;
+} */
+
+.footer {
+  background-image: url(../img/body.jpg);
+  text-align: center;
+  color: white;
+  height: 100px;
+}
+
+.footer h4 {
+ padding: 35px;
+}
