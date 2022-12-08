@@ -115,3 +115,34 @@
 .footer h4 {
  padding: 35px;
 }
+
+@media (max-width: 500px)  {
+  .header {
+    background-image: url(../img/header-mobile.jpg);
+  }
+
+  .header img {
+    width: 100%;
+  }
+
+  .search-character input {
+    width: 350px;
+  }
+
+  .search-character input:hover {
+    border: 2px solid purple;
+    box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 80px purple;
+  }
+
+  .search-character button {
+    margin-left: 120px;
+  }
+
+  .search-character button:hover {
+    box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 80px purple;
+  }
+
+  .footer h4 {
+    padding: 10px;
+  }
+}
